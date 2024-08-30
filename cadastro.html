@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>   
+  <link rel="stylesheet" href="src/cadastro.css"> 
+
+  <link href="/xampp/htdocs/TccAtualizadov2/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+  <script src="/xampp/htdocs/TccAtualizadov2/assets/dist/css/bootstrap.min.css"></script>
+
+  <meta charset="UTF-8"> 
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cadastro - Projeto Medusa</title>
+</head>
+
+<body>   
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"> </script> 
+   
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+    <header>        <a href="index.html"><img src="fotos medusa/Desing_Medusa.jpg" alt="Logo" /></a>        <nav>     
+            <a href="sobrenos.html">Sobre nós</a>            <a href="cadastro.html">Cadastro</a>            <a
+        href="login.html">Login</a>            <a href="relatos.html">Relatos</a>        </nav>    </header> 
+    <form action="processar.php" method="post">        <div class="signup-text">Fazer cadastro</div>        <label
+      for="email">E-mail:</label>        <input type="email" id="email" name="email" required>               
+    <label for="password">Senha:</label>        <input type="password" id="password" name="password" required>     
+              <label for="name">Nome:</label>        <input type="text" id="name" name="name" required>
+            <label for="surname">Sobrenome:</label>        <input type="text" id="surname" name="surname" required>
+            <label for="birthdate">Data de Nascimento:</label>        <input type="date" id="birthdate" name="birthdate"
+      required>
+            <label for="location">Local de Moradia:</label>        <input type="text" id="location" name="location"
+      required>
+            <button type="submit">Cadastrar</button>        <button type="button"
+      onclick="window.history.back()">Voltar</button>        <a href="login.html" class="back-link">Já tem
+      cadastro? Faça login aqui</a>   
+  </form>
+  <footer>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+      </footer>
+</body>
+
+</html>

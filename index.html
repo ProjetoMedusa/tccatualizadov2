@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <script src="/xampp/htdocs/TccAtualizadov2/assets/dist/css/bootstrap.min.css"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="src/index.css">
+  <link href="/xampp/htdocs/TccAtualizadov2/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index - Projeto Medusa</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <header>
+    <a href="index.html"><img src="fotos medusa/Desing_Medusa.jpg" alt="Logo" /></a>
+    <nav>
+      <a href="sobrenos.html">Sobre nós</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="login.html">Login</a>
+      <a href="relatos.html">Relatos</a>
+    </nav>
+  </header>
+  <br><br><br>
+  <div class="news-carousel">
+    <div>
+      <h2 class="not1">Racismo na Região dos Lagos</h2>
+      <p class="not1">Duas mulheres foram presas em flagrante após injúria racial contra operadora de caixa em farmácia
+        de Araruama-RJ</p>
+      <a href="https://g1.globo.com/rj/regiao-dos-lagos/noticia/2024/01/06/duas-mulheres-sao-presas-em-flagrante-apos-injuria-racial-contra-operadora-de-caixa-em-farmacia-de-araruama-rj.ghtml"
+        target="_blank"><img src="fotos medusa/tema_racismo.jpg"></a>
+    </div>
+    <div>
+      <h2 class="not2">LGBTQIA+ na Região dos Lagos</h2>
+      <p class="not2">Atos Homofóbicos Vandalizam Centro de Cabo Frio no Mês do Orgulho LGBTQIA+</p>
+      <a href="https://rc24h.com.br/centro-de-cabo-frio-e-vandalizado-com-pichacoes-homofobicas/" target="_blank"><img
+          src="fotos medusa/tema_lgbtqia+.jpg"></a>
+    </div>
+    <div>
+      <h2 class="not3">Ataque misógino na Região dos Lagos</h2>
+      <p class="not3">Ataques contra casa de abrigo para mulheres em situação de violência são registrados em cabo frio.
+      </p>
+      <a href="https://rc24h.com.br/ocupacao-de-abrigo-para-mulheres-em-situacao-de-violencia-em-cabo-frio-e-alvo-de-novo-ataque/"
+        target="_blank"><img src="/xampp/htdocs/TccAtualizadov2/fotos medusa/tema_misognia.jpg"> </a>
+    </div>
+  </div>
+  <div id="topic1">
+    <h1 class="obj1">Buscando conhecimento?</h1>
+    <p class="obj2"> Nossa projeto além de trazer informativos sobre reuniões<br>
+      casos de homofobia, misognia, racismo, violência de gênero<br>
+      e afins, também visa trabalhar os conceitos para que além<br>
+      de evitar erros nas mesmas coisas, também tenhamos<br>
+      propriedade para corrigir e ensinar outras pessoas.</p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <script>
+    $(document).ready(function () {
+      $('.news-carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+  <footer>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+      </footer>
+</body>
+
+</html>
